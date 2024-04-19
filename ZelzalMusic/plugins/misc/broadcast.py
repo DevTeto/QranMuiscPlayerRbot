@@ -22,7 +22,7 @@ from config import adminlist
 IS_BROADCASTING = False
 
 
-@app.on_message(command(["اذاعه", "ذيع"], "") & SUDOERS)
+@app.on_message(command(["اذاعه", "ذيع"]) & SUDOERS)
 @language
 async def braodcast_message(client, message, _):
     global IS_BROADCASTING
