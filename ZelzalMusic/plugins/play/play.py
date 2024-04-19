@@ -32,10 +32,10 @@ from config import BANNED_USERS, lyrical
         [
             "شغل",
             "تشغيل",
-            "فيديو",
-            "/play",
-            "/play",
             "فيد",
+            "/play",
+            "/play",
+            "/vplay",
             "/cplay",
             "/cvplay",
             "/playforce",
