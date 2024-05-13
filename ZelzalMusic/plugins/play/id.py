@@ -129,7 +129,7 @@ async def idjjdd(client, message):
     i = ["0","10", "15","20", "25","30","35", "40","45", "50","55", "60"," 66", "70","77", "80","85", "90","99", "100","1000" ]
     ik = random.choice(i)
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"نسبه جمالك يا مز انت \n※ \n🐉: {ik} %😂❤️", 
+    await message.reply_photo(photo,       caption=f"نسبه جمالك يصاحبي \n※ \n🐉: {ik} %😂❤️", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
